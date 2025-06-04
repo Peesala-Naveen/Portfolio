@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 0, 33);
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+.projects_container {
+    background-color: rgb(191, 154, 154);
+    border: 3px solid #4CAF50;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+
+.projects {
+    margin-top: 2rem;
+    color: white;
+}
+
+.projects h1,
+h2 {
+    color: #110101;
+}
+
+
+.projects p {
+    color: #120d0d;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+    color: #110101;
+}
+
+.projects li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    text-decoration: none;
+    margin-top: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
